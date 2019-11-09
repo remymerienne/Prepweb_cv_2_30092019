@@ -1,0 +1,150 @@
+/* --- Divers --- */
+#me img {
+    display: none;
+}
+
+/* ------------------------------------ */
+
+/* --- <div> page --- */
+#page {
+    flex-direction: column;
+    width: auto;
+}
+
+/* --- <div> cote droit --- */
+#right_side {
+    width: auto;
+    color: #37474F;
+}
+
+/* --- <header> principale --- */
+#main_header {
+    margin: 0px;
+    line-height: initial;
+    background-color: #37474F;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* --- <figure> contenant l'avatar version phone --- */
+#me_phone {
+    width: 20%;
+}
+
+/* --- Avatar --- */
+#me_phone img {
+    display: initial;
+    width: 90%;
+    margin-top: 9px;
+    margin-left: 9px;
+}
+
+/* --- Titre principal --- */
+#main_header h1 {
+    font-size: 1.7em;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+/* --- <span> couleur du prenom --- */
+#first_name {
+    color: #90A4AE;
+}
+
+/* --- Titre secondaire --- */
+#main_header h2 {
+    margin-top: 0px;
+    font-size: 1.3em;
+    width: 100%;
+    text-align: center;
+    color: #90A4AE;
+}
+
+/* --- <span> 5 lettres soulignees --- */
+#under {
+    border-bottom: 2px solid #90A4AE;
+}
+
+/* --- <section> --- */
+section {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* --- Logo de section --- */
+.decoration img {
+    margin-top: 21px;
+}
+
+/* --- Titre de section --- */
+section h3 {
+    font-size: 0.9em;
+    margin-top: 19px
+}
+
+/* --- <div> evenement --- */
+.event {
+    flex-wrap: wrap;
+}
+
+/* --- Puce "oeuil" --- */
+.chip img {
+    margin-top: 22px;
+}
+
+/* --- <div> contenant les dates --- */
+.date {
+    width: 40%;
+}
+
+/* --- <div> de description --- */
+.description {
+    width: auto;
+    padding-left: 0px;
+}
+
+.description h4 {
+    margin-top: 0px;
+}
+
+/* --- Block <address> --- */
+.reco a {
+    color: #37474F;
+}
+
+/* --- <div> cote gauche --- */
+#left_side {
+    width: auto;
+}
+
+/* --- General <aside> --- */
+aside h2 {
+    margin-top: 0px;
+}
+
+/* --- <aside> contact --- */
+#contact address {
+    margin: 30px;
+}
+
+/* --- <aside> a propos de moi --- */
+#about_me p {
+    margin: 30px;
+}
+
+/* --- <aside> loisirs --- */
+#hobbies {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/* --- <figure> contenant les logos loisir --- */
+#hobbies figure {
+    width: 75%;
+    margin: auto;
+}
+
+/* --- Logos loisirs --- */
+#hobbies img {
+    width: 25%;
+}
